@@ -1,0 +1,22 @@
+@keyframes float {
+    0% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(50px, -30px);
+    }
+    50% {
+      transform: translate(-30px, 50px);
+    }
+    75% {
+      transform: translate(30px, -50px);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  
+  .animate-float {
+    animation: float linear infinite;
+  }
+  
